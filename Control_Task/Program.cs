@@ -14,7 +14,7 @@ for (int i = 0; i < k; i++)
 {
     Console.WriteLine("Введите элемент массива: ");
     StringArray[i] = Console.ReadLine();
-    if (StringArray[i].Length < 3) ;
+    if (StringArray[i].Length <= 3) ;
     count++;
 }
 
